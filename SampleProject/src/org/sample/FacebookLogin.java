@@ -16,7 +16,7 @@ public class FacebookLogin {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
-		//1.by  Id
+		//1.byId
 //		WebElement txtUserName=driver.findElement(By.id("email"));
 //		txtUserName.sendKeys("test@gmail.com");
 //		WebElement txtPass = driver.findElement(By.id("pass"));
